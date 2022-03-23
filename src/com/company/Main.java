@@ -3,11 +3,16 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	Dencer dencer = new Dencer();
-    dencer.wolking();
-    Singer singer = new Singer();
-    singer.wolking();
-    Programmer programmer = new Programmer();
-    programmer.wolking();
+        Person[] people = new Person[3];
+
+
+       Person person0 = new Programmer();
+       person0.wolking();
+       Person person1 = new Dencer();
+       person1.wolking();
+       Person person2 = new Singer();
+       person2.wolking();
+
+
     }
 }
